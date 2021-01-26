@@ -14,7 +14,7 @@ string solution(string new_id) {
     
     for(int i = 0 ; i < new_id.length() ; i++){
         if(new_id[i] >= 65 && new_id[i] <= 90){
-            answer += tolower(new_id[i]);
+//            answer += tolower(new_id[i]);
             continue;
         }
         if((new_id[i] >= 48 && new_id[i] <= 57)||(new_id[i] >= 96 && new_id[i] <= 122) || new_id[i] == '-' || new_id[i] == '_' || new_id[i] == '.'){
@@ -58,4 +58,9 @@ string solution(string new_id) {
     }
     
     return answer;
+}
+
+int main(){
+    
+    return 0;
 }
