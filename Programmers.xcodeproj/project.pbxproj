@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE86795A25C00D510090F150 /* isPrime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE86795925C00D510090F150 /* isPrime.cpp */; };
+		DEEF6DB62643BC00007406BF /* 수식최대화.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEEF6DB52643BC00007406BF /* 수식최대화.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE2FD9B9264130C600F08139 /* 튜플.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "튜플.cpp"; sourceTree = "<group>"; };
+		DE56224725CBC879002B2198 /* 예산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "예산.cpp"; sourceTree = "<group>"; };
+		DE56224A25CC407F002B2198 /* 다트게임.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "다트게임.cpp"; sourceTree = "<group>"; };
 		DE86794C25BE89AB0090F150 /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE86794F25BE89AB0090F150 /* new_id.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = new_id.cpp; sourceTree = "<group>"; };
 		DE86795925C00D510090F150 /* isPrime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isPrime.cpp; sourceTree = "<group>"; };
+		DEC9CF6225D0253F009EE2FC /* stringtoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stringtoint.cpp; sourceTree = "<group>"; };
+		DEE24C0825C1653E00B7FBE5 /* ternary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ternary.cpp; sourceTree = "<group>"; };
+		DEE24C4E25C505AD00B7FBE5 /* stringSorting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stringSorting.cpp; sourceTree = "<group>"; };
+		DEE24C5125C505FA00B7FBE5 /* caesarCipher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = caesarCipher.cpp; sourceTree = "<group>"; };
+		DEE24C5725C6410E00B7FBE5 /* collatz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = collatz.cpp; sourceTree = "<group>"; };
+		DEE24C5A25C7E70300B7FBE5 /* press_keypad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = press_keypad.cpp; sourceTree = "<group>"; };
+		DEE24C6225CA4DB600B7FBE5 /* fail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fail.cpp; sourceTree = "<group>"; };
+		DEE24C6525CA5C5700B7FBE5 /* 비밀지도.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "비밀지도.cpp"; sourceTree = "<group>"; };
+		DEEF6DB52643BC00007406BF /* 수식최대화.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수식최대화.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,18 @@
 			children = (
 				DE86794F25BE89AB0090F150 /* new_id.cpp */,
 				DE86795925C00D510090F150 /* isPrime.cpp */,
+				DEE24C0825C1653E00B7FBE5 /* ternary.cpp */,
+				DEE24C4E25C505AD00B7FBE5 /* stringSorting.cpp */,
+				DEE24C5125C505FA00B7FBE5 /* caesarCipher.cpp */,
+				DEE24C5725C6410E00B7FBE5 /* collatz.cpp */,
+				DEE24C5A25C7E70300B7FBE5 /* press_keypad.cpp */,
+				DEE24C6225CA4DB600B7FBE5 /* fail.cpp */,
+				DEE24C6525CA5C5700B7FBE5 /* 비밀지도.cpp */,
+				DE56224725CBC879002B2198 /* 예산.cpp */,
+				DE56224A25CC407F002B2198 /* 다트게임.cpp */,
+				DEC9CF6225D0253F009EE2FC /* stringtoint.cpp */,
+				DE2FD9B9264130C600F08139 /* 튜플.cpp */,
+				DEEF6DB52643BC00007406BF /* 수식최대화.cpp */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -120,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE86795A25C00D510090F150 /* isPrime.cpp in Sources */,
+				DEEF6DB62643BC00007406BF /* 수식최대화.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
