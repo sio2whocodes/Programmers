@@ -35,15 +35,18 @@ string solution(vector<vector<int>> scores) {
         int self = scores[c][c];
         
         for(int r = 0 ; r < n ; r++){
+            sum += scores[r][c];
+            //본인이 준 점수와 같은 점수를 준 학생이 있는지 확인
             if(r != c && self == scores[r][c])
                 isUnique = false;
+            //최고점와 최저점 갱신
             if(min > scores[r][c])
                 min = scores[r][c];
             if(max < scores[r][c])
                 max = scores[r][c];
-            sum += scores[r][c];
         }
         
+        //본인이 본인에게 준 점수가 유일한 최고점or최저점일때
         if ((min == self || max == self) && isUnique) {
             sum -= self;
             avg = sum/(n-1);
