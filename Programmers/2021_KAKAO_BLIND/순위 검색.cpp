@@ -9,7 +9,7 @@
 #include <vector>
 #include <sstream>
 #include <algorithm>
-#include <map>
+#include <unordered_map>
 
 using namespace std;
 unordered_map<string, vector<int>> infoMap;
@@ -87,4 +87,8 @@ vector<int> solution(vector<string> info, vector<string> query) {
     
     
     return answer;
+}
+
+int main(){
+    
 }
