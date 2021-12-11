@@ -43,6 +43,8 @@ vector<string> solution(vector<string> orders, vector<int> course) {
             } while (next_permutation(combi.begin(), combi.end()));
         }
         
+        
+        
         for (pair<string, int> crs : crsFreq){
             if (crs.second == maxFreq)
                 answer.push_back(crs.first);
@@ -51,3 +53,4 @@ vector<string> solution(vector<string> orders, vector<int> course) {
     }
     return answer;
 }
+

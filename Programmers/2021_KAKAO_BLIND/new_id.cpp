@@ -6,6 +6,7 @@
 //
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -61,6 +62,6 @@ string solution(string new_id) {
 }
 
 int main(){
-    
     return 0;
 }
+
